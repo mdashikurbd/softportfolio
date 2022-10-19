@@ -1,0 +1,5 @@
+.header-top{
+	padding-top:30px;
+	position: fixed;
+	top:0;
+}

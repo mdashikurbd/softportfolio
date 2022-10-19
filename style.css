@@ -1,0 +1,308 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+}
+.padd-top-bottom{
+	padding: 120px 0;
+}
+/*Global CSS Start*/
+.container{
+	width: 90%;
+	margin: auto;
+}
+hr{
+	border: 0;
+	border-top: 1px solid #fff;
+	width: 130px;	
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.row{
+	overflow: hidden;
+}
+h2{
+	margin:0;
+	font-size: 48px;
+	letter-spacing: 4px;
+	font-weight: 600;
+	color:#fff;	
+}
+h4{
+	margin:0;
+	font-weight: 400;
+	font-size:14px;
+	color: #667084;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+	padding: 25px 0;
+}
+/*Global CSS End*/
+/*Header Area CSS Start*/
+.header-area{
+	background-image: url('assets/hbimage.png');
+	background-size: cover;
+	background-position: center;
+	padding:0 0 180px 0;
+	color: white;
+}
+.logo-area{
+	width: 30%;
+	float: left;
+}
+.menu-area{
+	
+	width: 60%;
+	float: left;	
+}
+.menu-area ul{
+	margin-top:30px;
+}
+.menu-area ul li{
+	display: inline;	
+}
+.menu-area ul li a{
+	text-transform: uppercase;
+	background: transparent;
+	padding: 3px 12px;
+	border-radius: 3px;
+	font-size: 16px;	
+}
+.menu-area ul li.active a,
+.menu-area ul li:hover a{
+	background: #27AD9C;
+}
+.header-top{
+	height: 100px;
+	width: 100%;
+	background:#1F2325;
+	position: fixed;
+	top:0%;
+	text-align: right;
+}
+.header-top:after{
+	content:'';
+	clear: both;
+	display: block;
+}
+.header-bottom{
+	text-align: center;
+	padding-top: 280px;	
+}
+.logo-area a img{
+	text-align: right;
+}
+.header-bottom h3{
+	color: #FA225B;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.header-bottom p{
+	font-size: 18px;
+	letter-spacing: 3px;
+	color: #6B80A5;
+}
+/*Header Area CSS End*/
+/*mobile menu */
+.mobile-menu{
+	display: none;
+}
+/*Start About area*/
+.about-area{
+	background:#20232C;
+	text-align: center;
+	overflow: hidden;
+}
+.about-top h2{
+	font-size: 50px;
+}
+.about-bottom{
+	margin-top: 30px;
+}
+.left-para{
+	width:47%;
+	float: left;
+	text-align: justify;
+	margin-right: 6%;
+	color: #7A89AB;
+	line-height: 30px;
+	font-size: 14px;
+}
+.right-para{
+	width:47%;
+	float: left;
+	text-align: justify;
+	color: #7A89AB;
+	line-height: 30px;
+	font-size: 14px;
+}
+/*End About area*/
+/*Start Portfolio Area*/
+.portfolio-area{
+	background: #191C23;
+	overflow: hidden;
+}
+.portfolio-top{
+	text-align: center;
+}
+.portfolio-top p{
+	width: 65%;
+	margin:50px auto;
+	color: #7A89AB;
+	text-align: justify;
+	line-height: 30px;
+	font-size: 14px;	
+	
+}
+.portfolio-bottom {
+	text-align: center;	
+}
+.col-1-3{
+	width: 33%;
+	float:left;
+	margin-top: 30px;
+}
+.portfolio-bottom h4{
+	color:#fff;
+}
+/*End Portfolio Area*/
+/*Services Area Start*/
+.services-area{
+	background: linear-gradient(to top, #20232C 66% , #96C577 34%);
+	overflow: hidden;
+}
+.services-top{
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 130px;		
+}
+.services-top h4{
+	color: #fff;
+}
+.services-bottom{
+	margin-top: 80px;
+}
+.col-1-2{
+	margin-top: 50px;
+	width: 50%;
+	float: left;
+	text-align: justify;
+}
+.col-1-2 p{
+	width: 90%;
+	color:#7A89AB;
+	line-height:25px;
+	font-size: 14px;
+}
+.col-1-2 h3{
+	color: #7A89AB; 
+}
+.col-1-2 .img{
+	float: left;
+	margin-right: 15px;
+}
+.col-1-2 .equl{
+	float: left;	
+}
+.col-1-2:hover h3{
+	color:#F9225B;
+	cursor: pointer;
+}
+.img:hover{
+	opacity: 0.5;
+    cursor: pointer;
+}
+/*Services Area End*/
+/*Contact area start*/
+.contact-area{
+	background:#EBECED;
+	text-align: center;	
+}
+.contact-top{
+	margin-bottom: 40px;
+	text-align: center;	
+}
+.contact-top h2{
+	color: #1D2028;	
+}
+.contact-top h4{
+	line-height: 30px;
+	font-size: 16px;
+	color: #7D89AB;
+	width: 46%;
+	margin: auto;	
+} 
+.name [type="text"],
+.email [type="email"],
+.contact [type="tel"],
+.message textarea{
+	width: 42%;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 20px;
+	border:0;
+}
+.btn input[type="submit"]{
+	Width:45%;
+	background:#F9225B;
+	padding:18px;
+	border:0;
+	font-size:18px;
+	letter-spacing:3px;
+	color: #fff;
+	cursor: pointer;	
+}
+.btn input[type="submit"]:hover{
+	background: #fff;
+	color:#F9225B;
+}
+.rount-img{
+	margin-top: 60px;
+}
+.rount-img img{
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+}
+/*Contact area end*/
+/*Footer Area Start*/
+.footer-area{
+	background: #1D2028;	
+}
+.footer-top {
+	text-align: center;
+	padding-top:50px;
+}
+.footer-top span{
+	color: #7A899E;	
+}
+.footer-bottom{
+	margin-top: 30px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.footer-bottom ul li{
+	display: inline;
+}
+
+.footer-bottom ul li a i{
+	background: #fff;
+	padding: 10px 20px 20px 10px;
+	width: 16px;
+	height: 16px;
+	border-radius:50%;
+	font-size: 30px;
+	margin-right: 8px;
+	color:#000;	
+}
+/*Footer Area End*/
+

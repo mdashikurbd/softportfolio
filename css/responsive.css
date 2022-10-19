@@ -1,0 +1,99 @@
+@media all and (max-width: 980px){
+	.menu-area{
+		display: none;	
+	}
+	.mobile-menu{
+		display: block;
+		text-align: right;
+		font-size: 36px;
+		margin-right: 10%;
+		margin-top: 30px;
+		cursor: pointer;
+		color:#fff;
+	}
+	.logo-area a img {
+		margin-top: 20px;
+	}
+	.name [type="text"],
+	.email [type="email"],
+	.contact [type="tel"],
+	.message textarea{
+		width: 80%;	
+	}
+	.btn input[type="submit"]{
+		Width:85%;
+	}
+	.services-area{
+		background: linear-gradient(to top, #20232C 75% , #96C577 25%);
+		overflow: hidden;
+	}
+	.padd-top-bottom{
+		padding: 30px 0;
+	}
+	.portfolio-bottom img{
+		width: 120px;
+	}
+	.contact-top h4{
+		letter-spacing: 1px;
+		line-height: 25px;
+		width: 50%;
+	}
+	.portfolio-top p {
+		text-align: justify;
+		width: 98%;
+}
+@media all and (max-width: 768px){
+	.portfolio-bottom img{
+		width: 120px;
+	}
+	
+	.services-area{
+		background: linear-gradient(to top, #20232C 80% , #96C577 20%);
+		overflow: hidden;
+	}
+	.padd-top-bottom{
+		padding: 30px 0;
+	}
+	.name [type="text"],
+	.email [type="email"],
+	.contact [type="tel"],
+	.message textarea{
+		width: 90%;
+	}
+	.btn input[type="submit"]{
+		Width:96%;
+	}
+	.contact-top h4{
+		letter-spacing: 1px;
+		line-height: 25px;
+		width: 70%;
+	}
+
+}
+@media all and (max-width: 480px){
+	.header-bottom p {
+		font-size: 23px;
+		letter-spacing: 2px;
+    }
+    .services-area{
+		background: linear-gradient(to top, #20232C 83% , #96C577 17%);
+		overflow: hidden;
+	}
+	.contact-top h4{
+		letter-spacing: 1px;
+		line-height: 25px;
+		width: 100%;
+	}   
+	.col-1-2 {
+		float: none;
+		width: 110%;
+	}
+	.left-para {
+		float: none;
+		width: 98%;
+		
+	}
+	.right-para{
+		width: 98%;
+	}	
+}
